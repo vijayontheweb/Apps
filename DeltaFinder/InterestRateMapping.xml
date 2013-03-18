@@ -1,0 +1,86 @@
+<mapping>
+	<map page="//CreditInterestData/InterestPlan" service="//IntRateData[IntRateCategory ='CREDIT']/IntPlan"/>
+	<map page="//CreditInterestData/InterestWaiverPlan" service="//IntRateData[IntRateCategory ='CREDIT']/IntWaiver/WaiveCode"/>
+	<map page="//CreditInterestData/InterestRate" service="//IntRateData[IntRateCategory ='CREDIT']/RateMatrixTier/Rate"/>
+	<map page="//CreditInterestData/InterestBase" service="//IntRateData[IntRateCategory ='CREDIT']/IntBase"/>
+	<map page="//CreditInterestData/InterestComputationMethod" service="//IntRateData[IntRateCategory ='CREDIT']/DailyAccrualCd"/>
+	<map page="//CreditInterestData/CompoundingFrequency" service="//IntRateData[IntRateCategory ='CREDIT']/CompoundFrequency"/>
+	<map page="//CreditInterestData/ARCVariance" service="//RateChange/RateChangeVar"/>
+	<map page="//CreditInterestData/ARCLimit" service="//RateChange/RateChangeLimit"/>
+	<map page="//CreditInterestData/RateChangeCycle" service="//RateChange/RateChangeFreq"/>
+	<map page="//CreditInterestData/TimesExercised" service="//RateChange/RateChangeExercised"/>
+	<map page="//CreditInterestData/NegotiateRateIndicator" service="//IntRateData[IntRateCategory ='CREDIT']/NegotiatedInd"/>
+	<!--
+	<map page="//ARCParametersData/ARCVariance" service="//AdjRate/RateChange/RateChangeVar"/>
+	<map page="//ARCParametersData/ARCLimit" service="//AdjRate/RateChange/RateChangeLimit"/>
+	<map page="//ARCParametersData/RateChangeCycle" service="//AdjRate/RateChange/RateChangeFreq"/>
+	<map page="//ARCParametersData/TimesExercised" service="//AdjRate/RateChange/RateChangeExercised"/>
+	<map page="//ARCParametersData/LastRateChangeDate" service="//AdjRate/RateChange/LastRateChangeDt"/>
+	<map page="//ARCParametersData/AllowValueDating" service="//AdjRate/RateChange/BackDateAllowInd"/>
+	<map page="//ARCParametersData/CurrentRate" service="//AdjRate/Rate"/>
+	<map page="//ARCParametersData/NewRate" service="//AdjRate/NewRate"/>
+	<map page="//ARCParametersData/EffectiveDate" service="//AdjRate/EffectiveDt"/>
+	<map page="//ARCParametersData/EffectiveDateRate" service="//AdjRate/EffectiveDtRate"/>
+	-->
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='01']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='01']"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='02']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='02']"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='03']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='03']"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='04']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='04']"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='05']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='05']"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='06']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='06']"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='07']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='07']"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='08']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='08']"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='09']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='09']"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='10']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='10']"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='11']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='11']"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='12']" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='12']"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='01']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='01']/Rate"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='02']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='02']/Rate"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='03']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='03']/Rate"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='04']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='04']/Rate"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='05']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='05']/Rate"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='06']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='06']/Rate"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='07']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='07']/Rate"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='08']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='08']/Rate"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='09']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='09']/Rate"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='10']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='10']/Rate"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='11']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='11']/Rate"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='12']/Rate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='12']/Rate"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='01']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='01']/Margin"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='02']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='02']/Margin"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='03']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='03']/Margin"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='04']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='04']/Margin"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='05']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='05']/Margin"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='06']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='06']/Margin"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='07']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='07']/Margin"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='08']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='08']/Margin"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='09']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='09']/Margin"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='10']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='10']/Margin"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='11']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='11']/Margin"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='12']/Points" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='12']/Margin"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='01']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='01']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='02']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='02']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='03']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='03']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='04']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='04']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='05']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='05']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataLeft/Row[Tier='06']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='06']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='07']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='07']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='08']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='08']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='09']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='09']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='10']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='10']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='11']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='11']/ExpirationDt"/>
+	<map page="//BonusInterestData/BonusDataRight/Row[Tier='12']/ExpirationDate" service="//IntRateData[IntRateCategory ='BONUS']/RateMatrixTier[Tier='12']/ExpirationDt"/>
+
+	<map page="//DebitInterestData/InterestPlan" service="//IntRateData[IntRateCategory ='DEBIT']/IntPlan"/>
+	<map page="//DebitInterestData/InterestWaiverPlan" service="//IntRateData[IntRateCategory ='DEBIT']/IntWaiver/WaiveCode"/>
+	<map page="//DebitInterestData/InterestRate" service="//IntRateData[IntRateCategory ='DEBIT']/RateMatrixTier/Rate"/>
+	<map page="//DebitInterestData/InterestBase" service="//IntRateData[IntRateCategory ='DEBIT']/IntBase"/>
+	<map page="//DebitInterestData/InterestComputationMethod" service="//IntRateData[IntRateCategory ='DEBIT']/DailyAccrualCd"/>
+	<map page="//DebitInterestData/CompoundingFrequency" service="//IntRateData[IntRateCategory ='DEBIT']/CompoundFrequency"/>
+	<map page="//DebitInterestData/BasisPoints" service="//IntRateData[IntRateCategory ='DEBIT']/RateMatrixTier/Margin"/>
+	<map page="//DebitInterestData/MinimumRate" service="//IntRateData[IntRateCategory ='DEBIT']/MinRate"/>
+	<map page="//DebitInterestData/MaximumRate" service="//IntRateData[IntRateCategory ='DEBIT']/MaxRate"/>
+
+	<map page="//BonusInterestData/BonusType" service="//IntRateData[IntRateCategory ='BONUS']/BasedOnCode"/>
+	<map intercept="getBonusInd" page="//BonusInterestData/BonusInterestIndicator" service="//IntRateData[IntRateCategory ='BONUS']"/>
+</mapping>
